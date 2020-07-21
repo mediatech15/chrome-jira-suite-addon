@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Jira Suite",
+  "version": "0.2",
+  "description": "Basic Jira suite for inserting common snips and basic link creation. In beta.",
+  "icons": {
+    "48": "icons/jira.png"
+  },
+  "permissions": ["activeTab", "storage", "tabs", "clipboardWrite"],
+  "browser_action": {
+    "default_icon": "icons/jira.png",
+    "default_title": "Jira Suite",
+    "default_popup": "web/popup.html"
+  },
+  "web_accessible_resources": [""],
+  "author": "Kyle Mason",
+  "incognito": "spanning"
+}
